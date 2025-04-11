@@ -1,6 +1,7 @@
 # Codigo semanaforo
 
 // Definição dos pinos
+
 const int ledVerde = 2;
 
 const int ledVermelho = 3;
