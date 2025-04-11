@@ -2,7 +2,9 @@
 
 // Definição dos pinos
 const int ledVerde = 2;
+
 const int ledVermelho = 3;
+
 const int ledAzul = 4;
 
 void setup() {
