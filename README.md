@@ -2,6 +2,8 @@
 
 O Arduino constitui uma plataforma de prototipagem eletrônica de código aberto amplamente adotada em ambientes educacionais, científicos e industriais. Baseado em uma arquitetura de hardware e software acessível, o Arduino visa simplificar o desenvolvimento de sistemas embarcados, proporcionando uma interface intuitiva para a criação de dispositivos interativos.
 
+![Descrição da imagem](https://giphy.com/gifs/arduinocc-arduino-petscii-ailadi-mFDWuDppjQJjite6FS)
+
 🎯 Objetivo
 
 A principal finalidade do Arduino é viabilizar o desenvolvimento de projetos de automação e controle, promovendo a integração entre sensores, atuadores e sistemas computacionais. A plataforma permite a experimentação prática de conceitos de eletrônica e programação, sendo amplamente utilizada em pesquisas acadêmicas, projetos de extensão e desenvolvimento de soluções voltadas à Internet das Coisas (IoT), robótica e educação tecnológica.
