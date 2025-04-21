@@ -2,7 +2,7 @@
 
 O Arduino constitui uma plataforma de prototipagem eletrônica de código aberto amplamente adotada em ambientes educacionais, científicos e industriais. Baseado em uma arquitetura de hardware e software acessível, o Arduino visa simplificar o desenvolvimento de sistemas embarcados, proporcionando uma interface intuitiva para a criação de dispositivos interativos.
 
-![Arduino UNO](imagens/200w.gif)
+![Arduino UNO](imagens/arduino_blink-fast.gif)
 
 🎯 Objetivo
 
