@@ -16,52 +16,52 @@ Dada sua flexibilidade, baixo custo e extensa comunidade de suporte, o Arduino r
 
 // Definição dos pinos
 
-const int ledVerde = 2;
+const int ledVerde = 10;
 
-const int ledVermelho = 3;
+const int ledVermelho = 12;
 
-const int ledAzul = 4;
+const int ledAmarelo = 11;
 
 void setup() {
 
-  pinMode(ledVerde, OUTPUT);
-  
-  pinMode(ledVermelho, OUTPUT);
-  
-  pinMode(ledAzul, OUTPUT);
-  
+pinMode(ledVerde, OUTPUT);
+
+pinMode(ledVermelho, OUTPUT);
+
+pinMode(ledAmarelo, OUTPUT);
+
 }
 
 void loop() {
 
-  // Sinal verde 
-  
-  digitalWrite(ledVerde, HIGH);
-  
-  digitalWrite(ledAzul, LOW);
-  
-  digitalWrite(ledVermelho, LOW);
-  
-  delay(5000); // 5 segundos
+// Sinal verde
 
-  // Sinal amarelo 
-  
-  digitalWrite(ledVerde, LOW);
-  
-  digitalWrite(ledAzul, HIGH);
-  
-  digitalWrite(ledVermelho, LOW);
-  
-  delay(1000); // 1 segundo
+digitalWrite(ledVerde, HIGH);
 
-  // Sinal vermelho
-  
-  digitalWrite(ledVerde, LOW);
-  
-  digitalWrite(ledAzul, LOW);
-  
-  digitalWrite(ledVermelho, HIGH);
-  
-  delay(5000); // 3 segundos
-  
+digitalWrite(ledAmarelo, LOW);
+
+digitalWrite(ledVermelho, LOW);
+
+delay(5000); // 5 segundos
+
+// Sinal amarelo
+
+digitalWrite(ledVerde, LOW);
+
+digitalWrite(ledAmarelo, HIGH);
+
+digitalWrite(ledVermelho, LOW);
+
+delay(1000); // 1 segundo
+
+// Sinal vermelho
+
+digitalWrite(ledVerde, LOW);
+
+digitalWrite(ledAmarelo, LOW);
+
+digitalWrite(ledVermelho, HIGH);
+
+delay(5000); // 5 segundos
+
 }
